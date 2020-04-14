@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int contohFunction()
+{
+    int a = 20;
+    return a;
+}
+
+int contohFunction2()
+{
+    int b = 40;
+    return b;
+}
+
+int main ()
+{
+    int a = 10;
+    cout << "ini variable lokal dari fungsi utama " << a << endl;
+    cout << "ini variable lokal dari fungsi contohFunction " <<contohFunction();
+    cout << endl;
+    int b = 20;
+    cout << "ini variable lokal dari fungsi utama " << b << endl;
+    cout << "ini variable lokal dari fungsi contohFunction " <<contohFunction();
+    cout << endl;
+}
